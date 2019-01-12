@@ -191,7 +191,6 @@
     hasMinorDiagonalConflictAt: function(diagonalIndex) {
       var boardLength = this.get('n');
       var counter = 0;
-      var start = 2;
 
       // Loop through the board for each row
       for (var j = 0; j < boardLength; j++) {
